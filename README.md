@@ -64,11 +64,21 @@ Create virtual machines:
 <img src="https://i.postimg.cc/WbMgr98b/virtual-network.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+<p>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+- Create linux virtual machine
+- Ensure it has same resource group as windows-vm with the one created
+- Ensure it has the same virtual network as windows-vm
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.postimg.cc/kGx5zpYj/linux-vm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+<img src="https://i.postimg.cc/bN9JR4tr/check-virtual-netowrk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.postimg.cc/nLgczJ6R/ensure-virtual-netowrks-same.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <br />
