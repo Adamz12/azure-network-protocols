@@ -95,4 +95,15 @@ Create virtual machines:
 <p>
 <img src="https://i.postimg.cc/cJZyYGg4/running-windows-vm-on-windowsapp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<p>
+
+- Download wireshark
+- Use this link - https://www.wireshark.org
+- Select windows x64 version
+
+</p>
+<p>
+<img src="https://i.postimg.cc/VvRQD7xP/download-wireshark.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
