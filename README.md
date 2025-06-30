@@ -83,5 +83,16 @@ Create virtual machines:
 </p>
 
 <h3>Part 2 - Observe ICMP Traffic</h3>
+<p>
 
+- install windows app
+- Run windows vm by loggin in with credentials and the public IP address of the vm
+
+</p>
+<p>
+<img src="https://i.postimg.cc/KjVhgKLd/download-windowsapp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.postimg.cc/cJZyYGg4/running-windows-vm-on-windowsapp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
