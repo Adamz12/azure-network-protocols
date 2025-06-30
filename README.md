@@ -106,4 +106,14 @@ Create virtual machines:
 <p>
 <img src="https://i.postimg.cc/VvRQD7xP/download-wireshark.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<p>
+
+- Open wireshark
+- Start packet capture by clicking the shark icon
+
+</p>
+<p>
+<img src="https://i.postimg.cc/Fs40SPFs/wireshark-packet-capture.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
