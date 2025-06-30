@@ -140,4 +140,18 @@ Create virtual machines:
 <p>
 <img src="https://i.postimg.cc/59764nHR/oberve-traffic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<p>
+
+- Open PowerShell
+- Ping google.com
+- Observe the traffic in wireshark
+
+</p>
+<p>
+<img src="https://i.postimg.cc/FKr4JX8g/ping-google-com.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.postimg.cc/mDqfqzD8/observe-traffic-google.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
