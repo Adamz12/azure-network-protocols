@@ -69,6 +69,7 @@ Create virtual machines:
 - Create linux virtual machine
 - Ensure it has same resource group as windows-vm with the one created
 - Ensure it has the same virtual network as windows-vm
+- Authentication type select password instead of SSH key.
 
 </p>
 <p>
