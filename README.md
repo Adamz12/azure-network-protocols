@@ -126,4 +126,18 @@ Create virtual machines:
 <p>
 <img src="https://i.postimg.cc/Kv8vCLJD/icmpt-traffic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<p>
+
+- Open PowerShell
+- Retrieve the private ip address of the linux machine
+- Ping that ip address in powershell and observe the ping requests
+
+</p>
+<p>
+<img src="https://i.postimg.cc/d3x15VPY/powershell.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.postimg.cc/59764nHR/oberve-traffic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
