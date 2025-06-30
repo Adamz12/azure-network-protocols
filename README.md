@@ -82,4 +82,6 @@ Create virtual machines:
 <img src="https://i.postimg.cc/nLgczJ6R/ensure-virtual-netowrks-same.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<h3>Part 2 - Observe ICMP Traffic</h3>
+
 <br />
