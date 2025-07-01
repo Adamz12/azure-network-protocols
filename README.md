@@ -154,4 +154,9 @@ Create virtual machines:
 <p>
 <img src="https://i.postimg.cc/mDqfqzD8/observe-traffic-google.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+
+<h3>Part 3 - Configuring a Firewall [Network Security Group]</h3>
+
+
 <br />
