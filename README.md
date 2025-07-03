@@ -157,6 +157,34 @@ Create virtual machines:
 
 
 <h3>Part 3 - Configuring a Firewall [Network Security Group]</h3>
+<p>
+<h4>Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM</h4>
 
+- On your Ubuntu VM, find its private IP:
+
+1. Open a terminal and run ip a (look for the IP under your primary network interface, e.g., eth0), or
+
+2. In the Azure portal, go to Virtual machines → [Your Ubuntu VM] → Networking and note the Private IP address.
+
+3. Switch to your Windows 10 VM and open Command Prompt (Win + R → cmd → Enter).
+
+
+- ping (Ubuntu-Private-IP) -t
+
+
+- To monitor this traffic, open Wireshark on the Windows 10 VM.
+
+1. Select the network interface used to reach the Ubuntu VM.
+
+2. In the display filter bar, type icmp and press Enter.
+
+3. You’ll see real-time ICMP echo requests and replies between your Windows and Ubuntu VMs.
+
+
+
+</p>
+<p>
+<img src="https://i.postimg.cc/fb0GTLsR/constant-ping.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 <br />
