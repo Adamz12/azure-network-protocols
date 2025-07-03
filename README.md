@@ -241,4 +241,24 @@ Create virtual machines:
 <img src="https://i.postimg.cc/7hMVBvk4/timing-out.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+<h4> Re-enable ICMP traffic for the Network Security Group your Ubuntu VM and go
+back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity (should start working)
+
+</h4>
+
+- Delete the rule to block the icmp traffic that we created
+- Then go back to the windows machine and observe the traffic
+- The requests should be back to working as normal
+
+
+
+</p>
+<p>
+<img src="https://i.postimg.cc/vHGFGbDW/delete-rule.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.postimg.cc/HW4RZR3j/Observe-traffic-resume.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <br />
