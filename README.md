@@ -226,4 +226,19 @@ Create virtual machines:
 <img src="https://i.postimg.cc/V6wmxMt8/deny-icmp-traffic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+<h4>Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
+</h4>
+
+- Go to windows machine
+- Observe the ping activity from winodws powershell/command prompt and wireshark
+- It should be timing out
+
+
+
+</p>
+<p>
+<img src="https://i.postimg.cc/7hMVBvk4/timing-out.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <br />
