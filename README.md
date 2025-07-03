@@ -222,5 +222,8 @@ Create virtual machines:
 
 
 </p>
+<p>
+<img src="https://i.postimg.cc/V6wmxMt8/deny-icmp-traffic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 <br />
