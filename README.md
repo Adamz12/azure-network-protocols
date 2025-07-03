@@ -261,4 +261,19 @@ back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command
 <img src="https://i.postimg.cc/HW4RZR3j/Observe-traffic-resume.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+<h4> Stop ping activity
+
+</h4>
+
+- Click control and C together to stop the ping activity
+- Stop wireshark activity
+
+
+
+</p>
+<p>
+<img src="https://i.postimg.cc/bY7HK9YM/stop-wireshark-activity.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <br />
