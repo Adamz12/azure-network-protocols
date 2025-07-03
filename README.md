@@ -187,4 +187,40 @@ Create virtual machines:
 <img src="https://i.postimg.cc/fb0GTLsR/constant-ping.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+<h4>Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic
+</h4>
+
+- In the Azure portal, navigate to Virtual machines → [Your Ubuntu VM]
+
+- Under Settings, click Networking
+
+- In the Network Interface panel, click the linked Network security group
+
+- In the NSG overview, select Inbound security rules
+
+- Click Add to create a new rule:
+
+1. Source: Any
+
+2. Source port ranges: *
+
+3. Destination: Any
+
+4. Destination port ranges: *
+
+5. Protocol: ICMP (or ICMPv4)
+
+6. Action: Deny
+
+7. Priority: 290
+
+8. Name: Deny-ICMP-Inbound (or your preferred label)
+
+- Click Add to save the rule and immediately block all incoming ICMP traffic to the Ubuntu VM.
+
+
+
+</p>
+
 <br />
