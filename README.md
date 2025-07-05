@@ -276,4 +276,30 @@ back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command
 <img src="https://i.postimg.cc/bY7HK9YM/stop-wireshark-activity.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+<h4> Observe SSH Traffic
+
+</h4>
+
+- Open Wireshark and select the network interface
+
+- In the filter bar, type ssh and press Enter
+
+- Open Windows PowerShell
+
+- Run ssh username@[Ubuntu-Private-IP]
+
+- Enter the password when prompted
+
+- Watch the SSH packets appear in Wireshark
+
+- Exit ssh connection by typing "exit" and entering it on power shell
+
+
+
+</p>
+<p>
+<img src="https://i.postimg.cc/cHnqvts5/connecting-ssh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <br />
