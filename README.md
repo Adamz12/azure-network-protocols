@@ -290,8 +290,9 @@ back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command
 - Run ssh username@[Ubuntu-Private-IP]
 
 - Enter the password when prompted
+  
+- Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
 
-- Watch the SSH packets appear in Wireshark
 
 - Exit ssh connection by typing "exit" and entering it on power shell
 
