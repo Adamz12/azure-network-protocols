@@ -348,4 +348,33 @@ ipconfig /renew (Automates releasing and renewing the IP to force the full DHCP 
 <img src="https://i.postimg.cc/XJ5Lxx54/wireshark-full-dhcp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+<h4> Observe DNS Traffic
+
+</h4>
+
+- Filter DNS traffic in Wireshark (dns)
+ (To capture only DNS query and response packets.)
+
+- Click the Restart icon in Wireshark
+ (Clears existing packets so you start with an empty capture.)
+
+- Open Windows PowerShell
+ (To issue DNS lookup commands.)
+
+- Run nslookup google.com
+ (Generates a DNS query for google.com and displays its IP address.)
+
+- Run nslookup disney.com
+ (Generates a DNS query for disney.com and displays its IP address.))
+
+- Observe the DNS queries and responses in Wireshark
+ (Confirms that the VM is correctly resolving domain names via DNS.)
+
+
+</p>
+<p>
+<img src="https://i.postimg.cc/hvMfWzQh/dns-nslookup.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <br />
