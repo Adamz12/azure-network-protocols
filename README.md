@@ -303,4 +303,49 @@ back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command
 <img src="https://i.postimg.cc/cHnqvts5/connecting-ssh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+<h4> Observe DHCP Traffic
+
+</h4>
+
+- Filter DHCP traffic in Wireshark (dhcp)
+(To capture only DHCP packets and observe the negotiation steps.)
+
+- Run ipconfig /renew in PowerShell
+(Shows that a simple renew doesn’t display the full handshake in the wireshark.)
+
+
+</p>
+<p>
+<img src="https://i.postimg.cc/mrvh3SRY/iprenew-own.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+  
+- In order to get the full dhcp handshake create a notepad with ipconfig /release
+ipconfig /renew (Automates releasing and renewing the IP to force the full DHCP cycle.)
+  
+- Save as dhcp.bat in C:\ProgramData (All Files)
+(Places the script in a system-accessible location for easy execution.)
+
+- In PowerShell, cd C:\ProgramData and ls
+(Verifies the script is in the correct directory before running.)
+
+- Execute the script with .\dhcp.bat
+(Triggers both release and renew, you’ll temporarily lose network connectivity as the IP is released; once the renew completes, the VM automatically re-obtains its IP. In Wireshark you’ll see the full Discover, Offer, Request, and Acknowledgment sequence.)
+
+</p>
+<p>
+<img src="https://i.postimg.cc/528rN4yf/notepad.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.postimg.cc/tCxS2qhF/files-dhcp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.postimg.cc/FsyqhF7N/cd-dhcp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.postimg.cc/XJ5Lxx54/wireshark-full-dhcp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <br />
