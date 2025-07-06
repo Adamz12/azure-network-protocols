@@ -392,4 +392,14 @@ ipconfig /renew (Automates releasing and renewing the IP to force the full DHCP 
 <img src="https://i.postimg.cc/zBgccKMS/rdp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+<h3> Conclusion
+
+</h3>
+
+This lab walked through securing and inspecting traffic between Azure VMs: you pinged and captured ICMP, used SSH from PowerShell to your Ubuntu VM, examined DHCP and DNS negotiations, and monitored RDP packets in Wireshark. You also applied a Network Security Group rule to block inbound ICMP. Be sure to shut down—or delete if you’re finished—all your VMs to avoid unnecessary charges. Thanks for following along, and I hope this exercise sharpened your Azure networking and troubleshooting skills!
+
+
+</p>
+
 <br />
