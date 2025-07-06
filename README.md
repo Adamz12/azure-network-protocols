@@ -377,4 +377,19 @@ ipconfig /renew (Automates releasing and renewing the IP to force the full DHCP 
 <img src="https://i.postimg.cc/hvMfWzQh/dns-nslookup.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+<h4> Observe RDP Traffic
+
+</h4>
+
+- Now open Wireshark and apply the display filter: tcp.port == 3389
+
+- You’ll immediately see a flood of RDP packets—this “spam” is just your active Remote Desktop session continuously sending screen updates, input events, and keep-alive messages between your client and the VM.
+
+
+</p>
+<p>
+<img src="https://i.postimg.cc/zBgccKMS/rdp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <br />
