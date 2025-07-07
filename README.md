@@ -43,7 +43,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   
 </p>
 <p>
-<img src="https://i.postimg.cc/wx115WqY/create-resource-group.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/wx115WqY/create-resource-group.png" width="800" height="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
@@ -58,10 +58,10 @@ Create virtual machines:
 - ensure that the username and password is on a notepad or file
   
 </p>
-<img src="https://i.postimg.cc/9MKZPKsz/windows-vm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/9MKZPKsz/windows-vm.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 </p>
-<img src="https://i.postimg.cc/WbMgr98b/virtual-network.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/WbMgr98b/virtual-network.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <p>
@@ -73,13 +73,13 @@ Create virtual machines:
 
 </p>
 <p>
-<img src="https://i.postimg.cc/kGx5zpYj/linux-vm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/kGx5zpYj/linux-vm.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.postimg.cc/bN9JR4tr/check-virtual-netowrk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/bN9JR4tr/check-virtual-netowrk.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.postimg.cc/nLgczJ6R/ensure-virtual-netowrks-same.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/nLgczJ6R/ensure-virtual-netowrks-same.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <h3>Part 2 - Observe ICMP Traffic</h3>
@@ -90,10 +90,10 @@ Create virtual machines:
 
 </p>
 <p>
-<img src="https://i.postimg.cc/KjVhgKLd/download-windowsapp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/KjVhgKLd/download-windowsapp.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.postimg.cc/cJZyYGg4/running-windows-vm-on-windowsapp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/cJZyYGg4/running-windows-vm-on-windowsapp.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -104,7 +104,7 @@ Create virtual machines:
 
 </p>
 <p>
-<img src="https://i.postimg.cc/VvRQD7xP/download-wireshark.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/VvRQD7xP/download-wireshark.png" height="800" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -114,7 +114,7 @@ Create virtual machines:
 
 </p>
 <p>
-<img src="https://i.postimg.cc/Fs40SPFs/wireshark-packet-capture.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/Fs40SPFs/wireshark-packet-capture.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -124,7 +124,7 @@ Create virtual machines:
 
 </p>
 <p>
-<img src="https://i.postimg.cc/Kv8vCLJD/icmpt-traffic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/Kv8vCLJD/icmpt-traffic.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -135,10 +135,10 @@ Create virtual machines:
 
 </p>
 <p>
-<img src="https://i.postimg.cc/d3x15VPY/powershell.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/d3x15VPY/powershell.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.postimg.cc/59764nHR/oberve-traffic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/59764nHR/oberve-traffic.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -149,10 +149,10 @@ Create virtual machines:
 
 </p>
 <p>
-<img src="https://i.postimg.cc/FKr4JX8g/ping-google-com.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/FKr4JX8g/ping-google-com.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.postimg.cc/mDqfqzD8/observe-traffic-google.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/mDqfqzD8/observe-traffic-google.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 
@@ -184,7 +184,7 @@ Create virtual machines:
 
 </p>
 <p>
-<img src="https://i.postimg.cc/fb0GTLsR/constant-ping.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/fb0GTLsR/constant-ping.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -223,7 +223,7 @@ Create virtual machines:
 
 </p>
 <p>
-<img src="https://i.postimg.cc/V6wmxMt8/deny-icmp-traffic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/V6wmxMt8/deny-icmp-traffic.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -238,7 +238,7 @@ Create virtual machines:
 
 </p>
 <p>
-<img src="https://i.postimg.cc/7hMVBvk4/timing-out.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/7hMVBvk4/timing-out.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -255,10 +255,10 @@ back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command
 
 </p>
 <p>
-<img src="https://i.postimg.cc/vHGFGbDW/delete-rule.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/vHGFGbDW/delete-rule.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.postimg.cc/HW4RZR3j/Observe-traffic-resume.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/HW4RZR3j/Observe-traffic-resume.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -273,7 +273,7 @@ back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command
 
 </p>
 <p>
-<img src="https://i.postimg.cc/bY7HK9YM/stop-wireshark-activity.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/bY7HK9YM/stop-wireshark-activity.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -300,7 +300,7 @@ back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command
 
 </p>
 <p>
-<img src="https://i.postimg.cc/cHnqvts5/connecting-ssh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/cHnqvts5/connecting-ssh.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -317,7 +317,7 @@ back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command
 
 </p>
 <p>
-<img src="https://i.postimg.cc/mrvh3SRY/iprenew-own.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/mrvh3SRY/iprenew-own.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -336,16 +336,16 @@ ipconfig /renew (Automates releasing and renewing the IP to force the full DHCP 
 
 </p>
 <p>
-<img src="https://i.postimg.cc/528rN4yf/notepad.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/528rN4yf/notepad.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.postimg.cc/tCxS2qhF/files-dhcp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/tCxS2qhF/files-dhcp.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.postimg.cc/FsyqhF7N/cd-dhcp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/FsyqhF7N/cd-dhcp.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.postimg.cc/XJ5Lxx54/wireshark-full-dhcp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/XJ5Lxx54/wireshark-full-dhcp.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -374,7 +374,7 @@ ipconfig /renew (Automates releasing and renewing the IP to force the full DHCP 
 
 </p>
 <p>
-<img src="https://i.postimg.cc/hvMfWzQh/dns-nslookup.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/hvMfWzQh/dns-nslookup.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
@@ -389,7 +389,7 @@ ipconfig /renew (Automates releasing and renewing the IP to force the full DHCP 
 
 </p>
 <p>
-<img src="https://i.postimg.cc/zBgccKMS/rdp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/zBgccKMS/rdp.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
